@@ -2,6 +2,13 @@
 
 These are the Eagle source files for the Avrrrinator, a Bus Pirate 3 to AVR ISP adapter. 
 
-## Revision A ( hardware/revA ): [ Compatible with Bus Pirate 3 ] 
+### Which should I choose?
 
-[Documentation and Bill of Materials](http://open.konspyre.org/blog/2013/01/23/the-avrrrinator-revision-a/)
+#### Avrrrinator Rev. A
+
+Straight Bus Pirate to AVR breakout with 5v/3.3v selection. No logic level
+translation. Simple and works.
+
+#### Avrrrinator Rev. B
+
+To be announced (ETA: when Half Life 3 is released).
