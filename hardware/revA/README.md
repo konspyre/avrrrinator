@@ -24,6 +24,12 @@ Get these made at OSHPark by [clicking through here](https://oshpark.com/shared_
 
 ## Assembly
 
+1. Snap 3 pins off of the breakaway header and solder it into the voltage selection area.
+2. Solder in the 6-pin ISP header
+3. Solder in the Bus Pirate mating header (10 pins).
+
+#### Assembly notes
+
 Most of the difficulty in assembling this board is soldering the 10-pin mating header. There is an alignment line silkscreened on the back
 to assist with getting it straight (and in the right orientation). To get a decent result, try soldering one corner pin in, aligning it with 
 the silk, and then tacking in an opposite corner.
