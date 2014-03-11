@@ -7,7 +7,7 @@ Has a jumper to select between the 3.3v and 5v power supplied by the Bus Pirate.
 logic levels are 3.3v when programming is done and that the Bus Pirate can only provide
 a very limited amount of power through its interface.
 
-### Bill of Materials for Revision A2
+### Bill of Materials for Revision A
 | Quantity | Description | Part number |
 | -------- | ----------- | ------ |
 | 1        | 6 pin AVR ISP header | [Mouser: 517-9612066404AR](http://www.mouser.com/Search/Refine.aspx?Keyword=517-9612066404AR) |
@@ -28,7 +28,7 @@ Most of the difficulty in assembling this board is soldering the 10-pin mating h
 to assist with getting it straight (and in the right orientation). To get a decent result, try soldering one corner pin in, aligning it with 
 the silk, and then tacking in an opposite corner.
  
-The other headers can also be placed with decent precision using this method.
+The other headers (power select, 6-pin ISP header) can also be placed with decent precision using this method.
 
 ## Use
 
@@ -36,16 +36,24 @@ The other headers can also be placed with decent precision using this method.
 
 2. Install/plug in your Bus Pirate 3 and make sure that it works on your system. [Bus Pirate AVR programming guide](http://dangerousprototypes.com/docs/Bus_Pirate_AVR_Programming)
 
-3. Plug in all cables, attach the Avrrrinator PCB to the Bus Pirate (note orientation of all cabling before applying power).
+3. Plug in all cables, attach the Avrrrinator PCB to the Bus Pirate (note orientation of all cabling before applying power). 
+ 
+4. Set the voltage jumper to your desired level.
 
-4. Write to your AVR breakouts with the following: `avrdude -v -p attiny4313 -c buspirate -P /dev/ttyUSB0 -U flash:w:blinky4313.hex`
+5. Write to your AVR breakouts with the following: `avrdude -v -p attiny4313 -c buspirate -P /dev/ttyUSB0 -U flash:w:blinky4313.hex`
+
 Replace: `attiny4313`, `/dev/ttyUSB0`, and `blinky4313.hex` with values from your own environment. 
+
+## Todo
+
+Complete assembly writeup (for the brave, just slot in all the components where they fit).
 
 ## Notable changes
 
 Revision A2: Silkscreen updates (mostly written on the mask layer), along with BOM change to a direct mounting header.
 
 Revision A1: Initial release. [Previous documentation and BOM](http://open.konspyre.org/blog/2013/01/23/the-avrrrinator-revision-a/).
+
 
 ## Licensing
 
