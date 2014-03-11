@@ -18,6 +18,10 @@ a very limited amount of power through its interface.
 
 * Colorful (and somewhat odd) alternative at [Digikey P/N: SAM8734-ND](http://www.digikey.com/product-detail/en/IDSD-03-D-06.00-T/SAM8734-ND/3476372). Mouser used to sell a proper 6-pin IDC cable, but they don't anymore (or it is really well hidden).
 
+## Fabrication
+
+Get these made at OSHPark by [clicking through here](https://oshpark.com/shared_projects/tvIUA78A).
+
 ## Assembly
 
 Most of the difficulty in assembling this board is soldering the 10-pin mating header. There is an alignment line silkscreened on the back
@@ -40,4 +44,9 @@ Replace: `attiny4313`, `/dev/ttyUSB0`, and `blinky4313.hex` with values from you
 ## Notable changes
 
 Revision A2: Silkscreen updates (mostly written on the mask layer), along with BOM change to a direct mounting header.
+
 Revision A1: Initial release. [Previous documentation and BOM](http://open.konspyre.org/blog/2013/01/23/the-avrrrinator-revision-a/).
+
+## Licensing
+
+CC0 Public Domain
