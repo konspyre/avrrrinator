@@ -12,7 +12,7 @@ rails (5V or 3.3V) that the logic levels are fixed at 3.3v during programming.
 | -------- | ----------- | ------ |
 | 1        | 6 pin AVR ISP header | [Mouser: 517-9612066404AR](http://www.mouser.com/Search/Refine.aspx?Keyword=517-9612066404AR) |
 | 1        | 3 pin breakaway header | 36-pin header: [Mouser: 649-68004-236](http://www.mouser.com/Search/Refine.aspx?Keyword=649-68004-236) / Alternative (3-pin, untested!): [Mouser: 571-1031853](http://www.mouser.com/Search/Refine.aspx?Keyword=571-1031853) |
-| 1        | Jumper/Power selector | [Mouser: 151-8033-E](http://www.mouser.com/Search/Refine.aspx?Keyword=151-8033-E)|
+| 1        | Jumper/Power selector | [Mouser: 151-8033-E](http://www.mouser.com/Search/Refine.aspx?Keyword=151-8033-E) (Red) / [Mouser: 151-8031-E](http://www.mouser.com/Search/Refine.aspx?Keyword=151-8031-E) (Blue) |
 | 1 	   | 10 pin PCB to Bus Pirate 3 female connector | [Mouser: 517-8510-4500PL](http://www.mouser.com/Search/Refine.aspx?Keyword=517-8510-4500PL)
 | 1 	   | AVR ISP cable (6-pin to 6-pin f/f)\* | [Adafruit: PID 371](http://www.adafruit.com/products/371)
 
