@@ -1,11 +1,11 @@
 # Avrrrinator Rev. A
 
-This is a single-ended AVR ISP breakout to be used with the Bus Pirate 3. Supports
-the connecting of one AVR to the Bus Pirate 3 for programming.
+This is a single-ended AVR ISP breakout for use with the Bus Pirate v3. It connects directly to the Bus Pirate via a keyed header.
 
-Has a jumper to select between the 3.3v and 5v power supplied by the Bus Pirate. Note that
-logic levels are 3.3v when programming is done and that the Bus Pirate can only provide
-a very limited amount of power through its interface.
+![AVrrrinator Rev A2](images/avrrinator-a2-bp.png)
+
+There is a voltage selection jumper that allows simple switching between the 5v and 3.3v rails provided by the Bus Pirate. Note that while this board allows voltage selection between the Bus Pirate's provided power
+rails (5V or 3.3V) that the logic levels are fixed at 3.3v during programming.
 
 ### Bill of Materials for Revision A
 | Quantity | Description | Part number |
@@ -20,7 +20,7 @@ a very limited amount of power through its interface.
 
 ## Fabrication
 
-Get these made at OSHPark by [clicking through here](https://oshpark.com/shared_projects/tvIUA78A).
+Get these made at OSHPark by [clicking here](https://oshpark.com/shared_projects/tvIUA78A).
 
 ## Assembly
 
