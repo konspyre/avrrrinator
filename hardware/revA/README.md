@@ -20,6 +20,8 @@ rails (5V or 3.3V) that the logic levels are fixed at 3.3v during programming.
 
 ## Fabrication
 
+**Please note**: Due to the extra I/O pins, this breakout is not readily compatible with a **v4** Bus Pirate.
+
 Get these made at OSHPark by [clicking here](https://oshpark.com/shared_projects/tvIUA78A).
 
 ## Assembly
