@@ -14,6 +14,6 @@ translation. Simple and works.
 
 #### Avrrrinator Rev. B
 
-Soon (ETA: when Half Life 3 is released).
+Soon (ETA: when Half Life 3 is released). You probably don't want to wait for this. Mostly for very specific use cases.
 
 ![Avrrrinator Rev B1](hardware/revB/images/avrrrinator-b-preview.png)
