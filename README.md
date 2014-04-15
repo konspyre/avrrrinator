@@ -20,4 +20,4 @@ Soon (ETA: when Half Life 3 is released). You probably don't want to wait for th
 
 Revision B isn't a program-many-AVRs-at-once board\*, but lets you connect more than one AVR for individual programming. This is great for prototyping and flipping different bits on two identical circuits (low power projects, debugging, etc). 
 
-\* Saying parallel would be confusing since old-school parallel programmers are out there
+\* Saying parallel would be confusing since old-school parallel port AVR programmers are out there (and with many likely still in use).
