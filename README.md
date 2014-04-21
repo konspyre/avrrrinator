@@ -12,9 +12,9 @@ These are the Eagle source files for the Avrrrinator, a Bus Pirate 3 to AVR ISP 
 Straight Bus Pirate to AVR breakout with 5v/3.3v selection. No logic level
 translation. Simple and works.
 
-#### Avrrrinator Rev. B
+#### [Avrrrinator Rev. B](hardware/revB)
 
-Soon (ETA: when Half Life 3 is released). You probably don't want to wait for this. Mostly for very specific use cases.
+The Eagle files are available for Rev B. Not much will change since this ended up being more of a toy/experimental project than anything else. It works though!
 
 ![Avrrrinator Rev B1](hardware/revB/images/avrrrinator-b-preview.png)
 
