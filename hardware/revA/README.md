@@ -7,6 +7,20 @@ This is a single-ended AVR ISP breakout for use with the Bus Pirate v3. It conne
 There is a voltage selection jumper that allows simple switching between the 5v and 3.3v rails provided by the Bus Pirate. Note that while this board allows voltage selection between the Bus Pirate's provided power
 rails (5V or 3.3V) that the logic levels are fixed at 3.3v during programming.
 
+## Use
+
+1. Install avrdude
+
+2. Install/plug in your Bus Pirate 3 and make sure that it works on your system. [Bus Pirate AVR programming guide](http://dangerousprototypes.com/docs/Bus_Pirate_AVR_Programming)
+
+3. Plug in all cables, attach the Avrrrinator PCB to the Bus Pirate (note orientation of all cabling before applying power). 
+ 
+4. Set the voltage jumper to your desired level.
+
+5. Write to your AVR breakouts with the following: `avrdude -v -p attiny4313 -c buspirate -P /dev/ttyUSB0 -U flash:w:blinky4313.hex`
+
+Replace: `attiny4313`, `/dev/ttyUSB0`, and `blinky4313.hex` with values from your own environment. 
+
 ### Bill of Materials for Revision A
 | Quantity | Description | Part number |
 | -------- | ----------- | ------ |
@@ -37,20 +51,6 @@ to assist with getting it straight (and in the right orientation). To get a dece
 the silk, and then tacking in an opposite corner.
  
 The other headers (power select, 6-pin ISP header) can also be placed with decent precision using this method.
-
-## Use
-
-1. Install avrdude
-
-2. Install/plug in your Bus Pirate 3 and make sure that it works on your system. [Bus Pirate AVR programming guide](http://dangerousprototypes.com/docs/Bus_Pirate_AVR_Programming)
-
-3. Plug in all cables, attach the Avrrrinator PCB to the Bus Pirate (note orientation of all cabling before applying power). 
- 
-4. Set the voltage jumper to your desired level.
-
-5. Write to your AVR breakouts with the following: `avrdude -v -p attiny4313 -c buspirate -P /dev/ttyUSB0 -U flash:w:blinky4313.hex`
-
-Replace: `attiny4313`, `/dev/ttyUSB0`, and `blinky4313.hex` with values from your own environment. 
 
 ## Todo
 
