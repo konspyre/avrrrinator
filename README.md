@@ -8,7 +8,7 @@ A cable connection is all that is required to begin programming your board using
 
 #### [Avrrrinator Rev. A](hardware/revA)
 
-![Avrrrinator Rev A2](hardware/revA/images/avrrinator-a2-bp.png)
+[![Avrrrinator Rev A2](hardware/revA/images/avrrinator-a2-bp.png)](hardware/revA)
 
 Straight Bus Pirate to AVR breakout with 5v/3.3v selection. No logic level
 translation. Simple and works.
@@ -17,7 +17,7 @@ translation. Simple and works.
 
 Revision B isn't a program-many-AVRs-at-once board\*, but lets you connect more than one AVR for individual programming. This is great for prototyping and flipping different bits on two identical circuits (low power projects, debugging, etc). 
 
-![Avrrrinator Rev B1](hardware/revB/images/avrrrinator-b-preview.png)
+[![Avrrrinator Rev B1](hardware/revB/images/avrrrinator-b-preview.png)](hardware/revB)
 
 The Eagle files are available for Rev B. Not much will change since this ended up being more of a toy/experimental project than anything else. It works though!
 
