@@ -1,4 +1,5 @@
 # Avrrrinator Rev. B
+![Avrrrinator Rev B1](images/avrrrinator-b-preview.png)
 
 ### Bill of Materials for Revision B
 | Quantity | Description | Part number | Placement |
