@@ -18,6 +18,8 @@
 
 ### Alternative connector for Bus Pirate to Avrrrinator Rev. B
 
+Exchanging the Bus Pirate <-> Avrrrinator connector for these two items allows the Avrrrinator PCB to be located further away from the Bus Pirate. This was the method used in early prototypes (it isn't recommended since things just end up flopping everywhere).
+
 | Quantity | Description | Part number |
 | -------- | ----------- | ----------- |
 | 1        | 10-pin IDC cable | [Adafruit: 370](adafru.it/370) |
