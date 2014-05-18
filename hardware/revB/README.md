@@ -2,11 +2,11 @@
 ![Avrrrinator Rev B1](images/avrrrinator-b-preview.png)
 
 ### Bill of Materials for Revision B
-| Quantity | Description | Part number | Placement |
-| -------- | ----------- | ----------- | --------- |
-| 2        | 6 pin AVR ISP header | [Mouser: 517-9612066404AR](http://www.mouser.com/Search/Refine.aspx?Keyword=517-9612066404AR) | CS and AUX (6-pin through-hole footprints) |
-| 2        | 0.1"/2.54mm breakaway header (2 pins needed for each) | 36-pin header: [Mouser: 649-68004-236](http://www.mouser.com/Search/Refine.aspx?Keyword=649-68004-236) | AVR CS PWR/AUX PWR pins |
-| 2        | Jumper/Power selector | [Mouser: 151-8033-E](http://www.mouser.com/Search/Refine.aspx?Keyword=151-8033-E) (Red) / [Mouser: 151-8031-E](http://www.mouser.com/Search/Refine.aspx?Keyword=151-8031-E) (Blue) | Jumper CS/AUX power normally set/closed |
+| Quantity | Description | Part number | Board Placement |
+| -------- | ----------- | ----------- | --------------- |
+| 2        | 6 pin AVR ISP header | [Mouser: 517-9612066404AR](http://www.mouser.com/Search/Refine.aspx?Keyword=517-9612066404AR) | ISP CS and ISP AUX (6-pin through-hole footprints) |
+| 2        | 0.1"/2.54mm breakaway header (2 pins needed for each) | 36-pin header: [Mouser: 649-68004-236](http://www.mouser.com/Search/Refine.aspx?Keyword=649-68004-236) | AVR CS PWR/AUX PWR pins (two pins each) |
+| 2        | Jumper/Power coupler | [Mouser: 151-8033-E](http://www.mouser.com/Search/Refine.aspx?Keyword=151-8033-E) (Red) / [Mouser: 151-8031-E](http://www.mouser.com/Search/Refine.aspx?Keyword=151-8031-E) (Blue) | Jumpers on two-pin CS/AUX power normally placed to close |
 | 1        | 10 pin PCB to Bus Pirate 3 female connector | [Mouser: 517-8510-4500PL](http://www.mouser.com/Search/Refine.aspx?Keyword=517-8510-4500PL) | Bus Pirate v3 header (bottom side with keyed slot matching outline) | 
 | 2        | AVR ISP cable (6-pin to 6-pin f/f)\* | [Adafruit: PID 371](http://www.adafruit.com/products/371) | N/A |
 | 2        | 0603 imperial 0.1µF capacitors | [Mouser: VJ0603Y104JXJPW1BC](http://www.mouser.com/Search/Refine.aspx?Keyword=VJ0603Y104JXJPW1BC) | C1 and C2 |
