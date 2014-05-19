@@ -1,6 +1,10 @@
 # Avrrrinator Rev. B
 ![Avrrrinator Rev B1](images/avrrrinator-b-preview.png)
 
+### Fabrication (OSHPark shared project)
+
+[Shared at OSHPark](https://oshpark.com/shared_projects/C2GnBJb3)
+
 ### Bill of Materials for Revision B
 | Quantity | Description | Part number | Board Placement |
 | -------- | ----------- | ----------- | --------------- |
@@ -24,3 +28,10 @@ Exchanging the Bus Pirate <-> Avrrrinator connector for these two items allows t
 | -------- | ----------- | ----------- |
 | 1        | 10-pin IDC cable | [Adafruit: 370](adafru.it/370) |
 | 1        | 10-pin box connector | [Mouser: 538-90130-1110](http://www.mouser.com/Search/Refine.aspx?Keyword=5538-90130-1110) |
+
+### More information/boring blog post
+
+[http://open.konspyre.org/avrb](http://open.konspyre.org/avrb)
+
+
+
